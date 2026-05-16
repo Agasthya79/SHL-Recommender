@@ -2,7 +2,7 @@
 import time
 import requests, json
 
-BASE = "http://localhost:8000"
+BASE = "https://shl-recommender-1d6t.onrender.com"
 
 def chat(messages: list[dict]) -> dict:
     r = requests.post(f"{BASE}/chat", json={"messages": messages}, timeout=30)
@@ -110,6 +110,6 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"✗ {test.__name__}: {e}")
             failed += 1
-        time.sleep(2)    
+        time.sleep(4)    
     print(f"\n{'='*40}")
     print(f"Results: {passed} passed, {failed} failed")
