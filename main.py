@@ -122,6 +122,10 @@ def validate_recommendations(recs: list) -> list[dict]:
 def health():
     return {"status": "ok"}
 
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "SHL Assessment Recommender is running"}
+
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
     if not request.messages:
