@@ -46,22 +46,23 @@ CATALOG:
 {CATALOG_TEXT}
 
 RULES:
-1. VAGUE QUERIES (TURN 1): If the user's very first message is extremely vague (e.g., "I need a test"), ask a clarifying question in "reply" and leave "recommendations" empty [].
-2. FORCED RECOMMENDATIONS (TURN 2+): If the conversation has more than one user message (i.e., you have already asked a clarifying question and they answered), you MUST provide 1 to 10 recommendations. DO NOT ask any more questions.
-3. FALLBACK: If an exact skill match (like "Java") isn't in the catalog, you MUST recommend general software engineering, cognitive, or personality tests. NEVER return an empty recommendations list if the user has specified a job role.
-4. EXACT MATCHING: You MUST copy the "name" and "url" EXACTLY as they appear in the CATALOG. Do not alter the URL in any way.
+1. VAGUE QUERIES: If the user's first request is extremely vague (e.g., "I need a test"), ask a clarifying question in "reply" and leave "recommendations" empty [].
+2. SPECIFIC QUERIES: If the user mentions a specific role (like "Java developer") OR if you are responding to a follow-up message (like providing years of experience), you MUST provide 1 to 10 relevant recommendations. 
+3. FALLBACK: If an exact skill match (like "Java") isn't in the catalog, recommend general software engineering, cognitive, or personality tests.
+4. EXACT MATCHING: You MUST copy the "name" and "url" EXACTLY as they appear in the CATALOG. Do not change capitalization, add spaces, or alter the URL in any way.
 5. SCHEMA: You MUST ALWAYS respond with a raw JSON object matching this exact schema:
-{
-  "reply": "Your conversational response",
+{{
+  "reply": "Your conversational response or clarifying question",
   "recommendations": [
-    {
+    {{
       "name": "Exact Name from Catalog",
       "url": "Exact URL from Catalog",
-      "test_type": "A single Test Type Code letter"
-    }
+      "test_type": "A single Test Type Code letter (e.g., K, P, A)"
+    }}
   ],
   "end_of_conversation": false
-}"""
+}}
+"""
 
 class Message(BaseModel):
     role: str  
