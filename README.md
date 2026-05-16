@@ -8,8 +8,9 @@ Conversational agent that recommends SHL Individual Test Solutions based on hiri
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Set your Anthropic API key
-export ANTHROPIC_API_KEY=your_key_here
+# 2. Set your Gemini API key
+export GEMINI_API_KEY="your_api_key_here"
+export PORT=8000
 
 # 3. (Optional) Refresh the catalog from SHL's live site
 python scraper_local.py
@@ -56,7 +57,7 @@ Response:
 
 1. Push this repo to GitHub
 2. Create new Web Service on render.com → connect your repo
-3. Set env var: `ANTHROPIC_API_KEY`
+3. Set env var: `GEMINI_API_KEY`
 4. Deploy
 
 ## Architecture
