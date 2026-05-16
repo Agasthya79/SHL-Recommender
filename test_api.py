@@ -110,6 +110,6 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"✗ {test.__name__}: {e}")
             failed += 1
-        time.sleep(4)    
+        time.sleep(5)    
     print(f"\n{'='*40}")
     print(f"Results: {passed} passed, {failed} failed")
