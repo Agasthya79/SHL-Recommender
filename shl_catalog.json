@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Global Skills Development Report",
+    "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "P"
+    ],
+    "test_type_labels": [
+      "Ability & Aptitude",
+      "Biodata & Situational Judgement",
+      "Competencies",
+      "Development & 360",
+      "Assessment Exercises",
+      "Personality & Behavior"
+    ]
+  },
+  {
+    "name": ".NET Framework 4.5",
+    "url": "https://www.shl.com/products/product-catalog/view/net-framework-4-5/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": ".NET MVC (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-mvc-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": ".NET MVVM (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": ".NET WCF (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-wcf-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": ".NET WPF (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-wpf-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": ".NET XAML (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-xaml-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": "Accounts Payable (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": "Accounts Payable Simulation (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "S"
+    ],
+    "test_type_labels": [
+      "Simulations"
+    ]
+  },
+  {
+    "name": "Accounts Receivable (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  },
+  {
+    "name": "Accounts Receivable Simulation (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "S"
+    ],
+    "test_type_labels": [
+      "Simulations"
+    ]
+  },
+  {
+    "name": "ADO.NET (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/ado-net-new/",
+    "remote_testing": false,
+    "adaptive_irt": false,
+    "test_types": [
+      "K"
+    ],
+    "test_type_labels": [
+      "Knowledge & Skills"
+    ]
+  }
+]
